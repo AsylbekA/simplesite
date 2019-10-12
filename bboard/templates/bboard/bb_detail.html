@@ -1,0 +1,14 @@
+{% extends "layout/basic.html" %}
+
+{% block title %}{{ bb.title }}{% endblock %}
+
+{% block content %}
+{% for bb in bbs %}
+<div>
+    <p>Рубрика: {{ bb.rubric.name }}</p>
+    <h2>{{ bb.title }}</h2>
+    <p>{{ bb.content }}</p>
+    <p>Цена:{{ bb.price }}</p>
+</div>
+{% endfor %}
+{% endblock %}

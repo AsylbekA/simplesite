@@ -1,0 +1,26 @@
+body{
+    background: url("images/nature.jpg") no-repeat;
+
+}
+.jumbotron{
+    background-color: transparent;
+}
+header h1{
+    font-size: 40pt;
+    text-transform: uppercase;
+    text-align: center;
+}
+nav{
+    font-size: 16pt;
+    width: 150px;
+    float: left;
+    color: navy;
+}
+nav a{
+    color: firebrick;
+    display: block;
+    margin: 10px 0px;
+}
+section{
+    margin-left: 170px;
+}
